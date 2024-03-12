@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Опис вашої сторінки">
+    <meta name="keywords" content="ключові слова, ваше ім'я, ваше прізвище">
+    <title>Ігнтанко Олександр Олегович (KODI)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 200vh;
+        }
+
+        .side-panel {
+            flex: 0 0 25%;
+            background-color: #051243;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            position: relative;
+        }
+
+        h2::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #051243;
+            position: absolute;
+            top: 100%;
+            margin-top: 8px; /* Опціонально, для зміни відстані між заголовком і лінією */
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .content {
+            flex-grow: 1;
+            background-color: #f2f2f2;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .address,
+        .phone,
+        .education,
+        .skills,
+        .projects,
+        .languages,
+        .additional-info {
+            border-bottom: 1px solid white;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .additional-info {
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .education::after,
+        .additional-info::after {
+            content: "";
+            display: block;
+            width: px;
+            height: 2px;
+            background-color: #051243;
+            margin-top: 8px; /* Опціонально, для зміни відстані між заголовком і лінією */
+        }
+        
+        .education p,
+        .additional-info p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="side-panel">
+            <img src="c:\Users\lvxcid\Downloads\photo_2024-03-12_19-16-06.jpg">
+
+            <div class="address">
+                <h2>Адреса</h2>
+                <p>вул. Кіото 9, Київ, Україна</p>
+            </div>
+
+            <div class="phone">
+                <h2>Номер Телефону</h2>
+                <p>+380931352544</p>
+            </div>
+
+            <div class="skills">
+                <h2>Технічні Досягнення</h2>
+                <p>Tropical</p>
+                <p>Навички с піаніном</p>
+                <p>Навички с працювання ударних партій</p>
+                <p>Обробка Вокалів (Acapella)</p>
+            </div>
+
+            <div class="education">
+                <h2>Освіта</h2>
+                <p>Бакалавр: ДТЕУ, Київ, Україна, Англійська</p>
+                <p>Спеціальність: ДТЕУ</p>
+                <p>Магістр: ДТЕУ, Київ, Україна, Українська</p>
+                <p>Спеціальність: ДТЕУ</p>
+            </div>
+
+            <div class="projects">
+                <h2>Проекти</h2>
+                <p>Tribute</p>
+                <p>kodi</p>
+            </div>
+
+            <div class="languages">
+                <h2>Мова і мови</h2>
+                <p>Англійська</p>
+                <p>Російська</p>
+                <p>Українська</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="additional-info">
+                <!-- Додайте іншу інформацію тут, якщо необхідно -->
+                <h2>Ігнтанко Олександр Олегович</h2>
+                <p>Я молодий музикант с перспективами...</p>
+            </div>
+
+            <div class="education">
+                <h2>Освіта</h2>
+                <p>Бакалавр: ДТЕУ, Київ, Україна, Англійська</p>
+                <p>Спеціальність: ДТЕУ</p>
+                <p>Магістр: ДТЕУ, Київ, Україна, Українська</p>
+                <p>Спеціальність: ДТЕУ</p>
+            </div>
+
+            <div class="projects">
+                <h2>Проекти</h2>
+                <p>Tribute</p>
+                <p>kodi</p>
+            </div>
+            <div class="project-panels">
+                <div class="panel"></div>
+                <div class="panel"></div>
+                <div class="panel"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
